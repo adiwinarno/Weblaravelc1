@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMahasiswaTable extends Migration
+class CreateMahasiswa extends Migration
 {
     /**
      * Run the migrations.
@@ -18,8 +18,8 @@ class CreateMahasiswaTable extends Migration
             $table->char('nim', 10);
             $table->string('nama_lengkap');
             $table->integer('prodi');
-            $table->timestamps();
-        });//22-07-2020
+            $table->timestamps();;
+        });
     }
 
     /**
